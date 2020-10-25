@@ -90,7 +90,7 @@ color: rgb(63, 63, 63);
 
 /* 三级标题 */
 #nice h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
 }
@@ -99,7 +99,7 @@ color: rgb(63, 63, 63);
 #nice h3 span {
   margin-left: 8px;
   color: #3E3E3E;
-  background: linear-gradient(transparent 60%, #CBCBE3 40%);
+  background: linear-gradient(white 60%, #CBCBE3 40%);
 }
 
 /* 三级标题修饰 请参考有实例的主题 */
@@ -288,7 +288,8 @@ li code {
 #nice .footnote-word {
   font-weight: bold;
   color: #3E3E3E;
-  background: linear-gradient(transparent 60%, #DEDDDC 40%); /* GRAY #DEDDDC */
+  text-decoration: underline;
+  /* GRAY #DEDDDC */
 }
 
 /* 脚注上标 */
